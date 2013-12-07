@@ -1,0 +1,30 @@
+<!doctype html>
+<script src="http://www.js.do/sound/js/riffwave.js"></script>
+<script src = "amp_mod.js" ></script>
+
+<html>
+<head>
+    <title>Sounds of Change</title>
+    <style>
+        label { display: block; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Sounds of Change</h1>
+</header>
+
+<canvas class="round10" id="canvas1" style="background-color: black; z-index: 2; position: relative;" width="650" height="190" ></canvas>
+<canvas class="round10" id="canvas2" style="background-color: black; z-index: 2; position: relative;" width="650" height="190" ></canvas>
+
+<script>
+
+    var chime = chimes();
+    canvas1.addEventListener('click', play_chime(chime), false);
+    draw_global_chime(chime);
+
+    draw_user_chime(mychime()) ;
+</script>
+
+</body>
+</html>
