@@ -1,6 +1,6 @@
 <!doctype html>
 <script src="http://www.js.do/sound/js/riffwave.js"></script>
-<script src = "amp_mod.js" ></script>
+<script src = "js/amp_mod.js" ></script>
 
 <html>
 <head>
@@ -18,12 +18,16 @@
 <canvas class="round10" id="canvas2" style="background-color: black; z-index: 2; position: relative;" width="650" height="190" ></canvas>
 
 <script>
+    function render_chimes(){
+        canvas1.addEventListener('click', play_chime(), false)
+        draw_user_chime(chimes(), canvas1);
+        draw_user_chime(chimes(),canvas2);
+        clearCanvas(canvas1.getContext('2d'), canvas1);
+        clearCanvas(canvas2.getContext('2d'), canvas2);
+    }
+    render_chimes();
+    setInterval(function(){render_chimes()},3700);
 
-    var chime = chimes();
-    canvas1.addEventListener('click', play_chime(chime), false);
-    draw_global_chime(chime);
-
-    draw_user_chime(mychime()) ;
 </script>
 
 </body>

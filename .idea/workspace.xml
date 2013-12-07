@@ -5,7 +5,8 @@
     <ignored path="sonic-chimes.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.html" changelist="d7f1516c-e5b8-4fa1-ac66-8b113be977ae" time="1386409751093" ignored="false" />
-    <file path="/amp_mod.js" changelist="d7f1516c-e5b8-4fa1-ac66-8b113be977ae" time="1386409355659" ignored="false" />
+    <file path="/amp_mod.js" changelist="d7f1516c-e5b8-4fa1-ac66-8b113be977ae" time="1386447579821" ignored="false" />
+    <file path="/chimes.html" changelist="d7f1516c-e5b8-4fa1-ac66-8b113be977ae" time="1386447430013" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="amp_mod.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/amp_mod.js">
+      <file leaf-file-name="chimes.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chimes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="26" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.7800586">
+            <state line="29" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.63596493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
+      <file leaf-file-name="amp_mod.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/amp_mod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="732" selection-end="732" vertical-scroll-proportion="-15.625">
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="156" column="29" selection-start="5749" selection-end="5749" vertical-scroll-proportion="-8.863636">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,13 +57,14 @@
         <option value="$PROJECT_DIR$/Simple-JS-Synth/amplitude-modulation.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/amp_mod.js" />
+        <option value="$PROJECT_DIR$/js/amp_mod.js" />
+        <option value="$PROJECT_DIR$/chimes.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
     <option name="y" value="22" />
-    <option name="width" value="2555" />
+    <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -387,7 +386,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="22" width="2555" height="831" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="831" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -470,28 +469,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Simple-JS-Synth/amplitude-modulation.html">
+    <entry file="file://$PROJECT_DIR$/js/amp_mod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="147" selection-end="147" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="156" column="29" selection-start="5749" selection-end="5749" vertical-scroll-proportion="-8.863636">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
+    <entry file="file://$PROJECT_DIR$/chimes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="732" selection-end="732" vertical-scroll-proportion="-15.625">
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amp_mod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="26" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.7800586">
+        <state line="29" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.63596493">
           <folding />
         </state>
       </provider>
